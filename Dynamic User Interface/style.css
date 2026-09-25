@@ -87,7 +87,7 @@ header > small{
 
 #studentForm input {
     width: 100%;
-    max-width: 1000px;
+    max-width: 2000px;
     box-sizing: border-box;
 
     border: 2px solid rgb(158, 131, 131);
@@ -112,7 +112,7 @@ header > small{
     text-align: center;
     border-radius: 10px;
     background-color: rgb(158, 131, 131);
-    margin: 20px 15px;
+    margin: 15px 15px;
     margin-top: 30px;
     margin-bottom: 30px;
     padding-bottom: 10px;
@@ -173,7 +173,7 @@ header > small{
   }
 }
 
-@media (width > 320px) and (width >= 1000px){
+@media (width > 320px) and (width >= 1500px){
   #studentList > .list-item{
     grid-column: span 12;
   }
